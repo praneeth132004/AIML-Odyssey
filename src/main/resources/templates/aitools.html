@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools - AIML Odyssey</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+
+    <!-- Header with Navbar -->
+    <header class="header">
+        <div class="container-fluid p-3 d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h2>AIML Odyssey</h2>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="/home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Learn</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="/aitools" class="nav-link active">AI Tools</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Community</a></li>
+                    <li class="nav-item"><a href="/Contactus" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item ms-auto"><a href="/login" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="/signup" class="btn btn-primary">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- AI Tools Section -->
+    <section class="aitools-section">
+        <div class="container mt-5">
+            <h2 class="text-center">AI Tools</h2>
+            <p class="text-center">Explore a curated selection of tools, frameworks, and libraries that will empower your AI and Machine Learning projects.</p>
+            
+            <div class="row mt-5">
+                <!-- Tool Card Example -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/tf2.png" class="card-img-top" alt="Tool Image">
+                        <div class="card-body">
+                            <h5 class="card-title">TensorFlow</h5>
+                            <p class="card-text">An open-source platform for machine learning, TensorFlow offers a comprehensive ecosystem of tools, libraries, and community resources.</p>
+                            <a href="https://www.tensorflow.org/" target="_blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/Pytorch.png" class="card-img-top" alt="Tool Image">
+                        <div class="card-body">
+                            <h5 class="card-title">PyTorch</h5>
+                            <p class="card-text">PyTorch is a deep learning framework that provides flexibility and speed, with support for dynamic computation graphs.</p>
+                            <a href="https://pytorch.org/" target="_blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/images/sk.png" class="card-img-top" alt="Tool Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Scikit-learn</h5>
+                            <p class="card-text">A machine learning library for Python, Scikit-learn offers simple and efficient tools for data analysis and modeling.</p>
+                            <a href="https://scikit-learn.org/" target="_blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more tool cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center p-3">
+        <p><span>&#64;</span>Geethanjali College of Engineering and Technology</p>
+        <p><span>&#169;</span> created by NS Praneeth, B. Vishnu Vardhan, and A. Sathvika</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
